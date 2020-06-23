@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <header class="title">
+        <h1>the code review</h1>
+    </header>
+    <main>
+        <section class="top">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing in your inbox</p>
+            <hr id="break">
+        </section>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+        </section>
+
+        <section>
+            <form action="/" method="get">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Required" required><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" placeholder="Required" required><br>
+
+                <label for="phone">Phone Number</label><br>
+                <input type="text" id="phone" name="phone"><br>
+
+                <label for="address">Street Address</label><br>
+                <input type="text" id="address" name="address"><br>
+
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="city"><br>
+
+                <label for="state">State</label><br>
+                <select name="state" id="state">
+                    <option value="ma">MA</option>
+                    <option value="ny">NY</option>
+                    <option value="ct">CT</option>
+                    <option value="nh">NH</option>
+                </select><br>
+
+                <label for="zip-code">Zip Code</label><br>
+                <input type="text" name="zip-code" id="zip-code">
+
+                <hr id="secondBreak">
+
+            <section>
+                <h2>Newsletter</h2>
+                <p>Select the newsletters you would like to receive</p>
+
+                
+                <input type="checkbox" id="html-news" name="news" value="html" checked>
+                <label for="html-news">HTML News</label><br>
+
+                <input type="checkbox" id="css-news" name="news" value="css-news">
+                <label for="css-news">CSS News</label><br>
+
+                <input type="checkbox" id="javaScript-news" name="news" value="javaScript-news">
+                <label for="javaScript-news">JavaScript News</label><br>
+            </section>
+
+            <section>
+                <p>Newsletter format</p>
+                <input type="radio" id="html-format" name="format" value="html-format" checked>
+                <label for="html-format">HTML</label><br>
+
+                <input type="radio" id="text-format" name="format" value="text-format">
+                <label for="text-format">Plain Text</label><br>
+            </section>
+
+            <section>
+                <p>Other topis you'd like to hear about</p>
+                <textarea name="text-box" id="text-box" cols="35" rows="4"></textarea>
+            </section>
+
+            <button type="submit">Sign up</button>
+
+            </form>
+
+        </section>
+    
+    </main>
+    <footer>
+        <p>Copyright to Code Review</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f6ff;
+}
+
+.title {
+    background-color: #111d5e;
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.top
+h2 {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.top 
+p {
+    font-size: 18px;
+    font-weight: 100;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    color: #b2bec3;
+}
+
+section.top {
+    border-bottom: 1px solid #111d5e;
+}
+
+#break {
+    margin-bottom: 3px;
+    border-style: none;
+    border-top: 5px solid #111d5e;
+}
+
+.contact
+h2 {
+    font-weight: 900;
+    font-size: 20px;
+}
