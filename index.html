@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Registration Form</title>
     <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="title">
@@ -23,31 +24,48 @@
 
         <section>
             <form action="/" method="get">
-                <label for="name">Full Name</label><br>
-                <input type="text" id="name" name="name" placeholder="Required" required><br>
+                <div class="name">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Required" required><br>
+                </div>
 
-                <label for="email">Email Address</label><br>
-                <input type="email" id="email" name="email" placeholder="Required" required><br>
+                <div class="email">
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" placeholder="Required" required><br>
+                </div>
 
-                <label for="phone">Phone Number</label><br>
-                <input type="text" id="phone" name="phone"><br>
+                <div class="phone">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="text" id="phone" name="phone"><br>
+                </div>
 
-                <label for="address">Street Address</label><br>
-                <input type="text" id="address" name="address"><br>
+                <div class="address"> 
+                    <label for="address">Street Address</label><br>
+                    <input type="text" id="address" name="address"><br>
+                </div>
 
-                <label for="city">City</label><br>
-                <input type="text" id="city" name="city"><br>
+                <div class="city">
+                    <label for="city">City</label><br>
+                    <input type="text" id="city" name="city"><br>
+                </div>
 
-                <label for="state">State</label><br>
-                <select name="state" id="state">
-                    <option value="ma">MA</option>
-                    <option value="ny">NY</option>
-                    <option value="ct">CT</option>
-                    <option value="nh">NH</option>
-                </select><br>
+                <div class="state">
+                    <label for="state">State</label>
+                        <input list="state" id="mystate" name="mystate" />
+                        <datalist id="state">
+                        <option value="MA">
+                        <option value="CT">
+                        <option value="NY">
+                        <option value="RI">
+                        <option value="NH">
+                        <option value="VA">
+                        </datalist>
+                </div>
 
+                <div class="zip">
                 <label for="zip-code">Zip Code</label><br>
                 <input type="text" name="zip-code" id="zip-code">
+                </div>
 
                 <hr id="secondBreak">
 
@@ -77,7 +95,7 @@
 
             <section>
                 <p>Other topis you'd like to hear about</p>
-                <textarea name="text-box" id="text-box" cols="35" rows="4"></textarea>
+                <textarea name="text-box" id="text-box" cols="35" rows="6"></textarea>
             </section>
 
             <button type="submit">Sign up</button>
