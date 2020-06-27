@@ -1,8 +1,32 @@
+/********************** BASE */
+
+body {
+    background-color: #f4f6ff;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+[type="text"]::placeholder,
+    [type="email"]::placeholder{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: right;
+        position: relative;
+        right: 20px;
+    }
+
+    [list="state"]::placeholder{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        left: 15px;
+    }
+
+/********************** MEDIA QUERY 320px to 767px */
+
 @media (min-width: 320px) and (max-width: 767px) {
 
-    body {
-        background-color: #f4f6ff;
-    }
+    
     
     h2 {
         font-family: 'Bree Serif', serif;
@@ -75,8 +99,7 @@
     [type="text"]::placeholder,
     [type="email"]::placeholder{
         font-style: italic;
-        position: relative;
-        left: 230px;
+        text-align: end;
     }
     
     [type= "text"]:focus,
@@ -118,10 +141,10 @@
 
 
 
-/*************** MEDIA Q 768PX ******************/
+/********************** MEDIA QUERY 768px */
 @media  (min-width:768px){
     body {
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
     }
 
@@ -189,15 +212,15 @@
         border: 10px;
         border-radius: 5px;
         width: 98%;
-        padding: 15px 0;
+        padding: 15px 0;    
         margin-top: 10px;
     }
     
     [type="text"]::placeholder,
     [type="email"]::placeholder{
-        font-style: italic;
+        text-align: right;
         position: relative;
-        left: 230px;
+        right: 20px;
     }
     
     [type= "text"]:focus,
