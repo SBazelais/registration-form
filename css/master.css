@@ -26,6 +26,7 @@ h1 {
         border: none;
     }
 
+    
 /********************** MEDIA QUERY 320px to 767px */
     
     h2, legend {
@@ -70,7 +71,7 @@ h1 {
         color: #b2bec3;
     }
     
-    section.top {
+    .top {
         border-bottom: 1px solid #111d5e;
     }
     
@@ -281,5 +282,6 @@ label {
         text-align: center;
         color: #b2bec3;
     }
+
 
 }
