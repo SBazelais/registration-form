@@ -84,7 +84,6 @@ h1 {
 
     .contact {
         font-weight: 900;
-        font-size: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -265,9 +264,13 @@ label {
         border-color: #111d5e;
         margin-top: 25px;
     }
+
+    #text-box{
+       width: 100%;
+    }
     
     [type="submit"]{
-        width: 80%;
+        width: 100%;
         padding: 15px 0;
         background-color: #00BCC9;
         color: white;
@@ -276,6 +279,7 @@ label {
         border-width: 0;
         border-radius: 5px;
     }
+
     
     footer 
     p {
